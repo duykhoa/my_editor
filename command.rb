@@ -7,6 +7,8 @@ class Command
       $stdout << buffer
     when "q"
       exit!
+    when /s\/(.*)\/(.*)\/$/
+      buffer.gsub!($1, $2)
     end
   end
 
