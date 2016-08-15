@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    my_editor (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  my_editor!
+
+BUNDLED WITH
+   1.11.2
